@@ -4,7 +4,7 @@ $pusername = 'administrator' #possible username (FQDN)
 $ppasswords = 'AdministratorPassword' #list of possible passwords array variable
 $hostname = 'hostname' #name of target machine, or IP addr
 if  ($args.Count -eq 0) {
-    Write-Host "Example: auth 192.168.0"
+    Write-Host "Example: credscan 192.168.0"
     exit
 }
  
